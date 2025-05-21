@@ -6,7 +6,7 @@ from rclpy.node import Node #Node allows reading values from sensors
 
 from sensor_msgs.msg import LaserScan #needed for LiDar
 
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist #Twist for representing velocity of robot
 
 class LidarAvoidance(Node):
     def __init__(self):

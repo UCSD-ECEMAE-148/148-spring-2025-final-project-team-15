@@ -1,0 +1,3 @@
+[console_scripts]
+avoid_node = lidar_avoidance.lidar_avoidance_node:main
+

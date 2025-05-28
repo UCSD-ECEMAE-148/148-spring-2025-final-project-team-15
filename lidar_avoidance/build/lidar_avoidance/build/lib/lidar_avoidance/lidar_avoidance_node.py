@@ -19,23 +19,19 @@ class LidarAvoidance(Node): #creating LidarAvoidance that inherits from Node
 		# send Twist messages (gives robot instruction on how to move in terms of speed/velocity)  to /cmd_vel topic
 
     def scan_callback(self, msg):  #call when new lidar data is received. detects obstacles in front
-	# msg = input from lidar 
-        import math
-        view_degree = 360
-        print("LiDAR data received:", msg.ranges[:5])
-        # take the center 180-degree (90 to the left of the center line and 90 to the right of the center line) range (adjust based on your lidar)
-         center_range = msg.ranges[len(msg.ranges)//2 - 90 : len(msg.ranges)//2 + 90]
+			# msg = input from lidar 
+        # take the center 60-degree range (adjust based on your lidar)
+        center_range = msg.ranges[len(msg.ranges)//2 - 30 : len(msg.ranges)//2 + 30]
         # filter out 'inf' values
         center_range = [r for r in center_range if r > 0.0]
 
         twist = Twist()
-        if center_range and min(center_range) < 1: #turning when the lidar is 0.5m away from the obstacle
-            print("Obstacle detected! Turning to avoid.")
-            twist.angular.z = 0.5  # turn if obstacle ahead. 0.5 rad/s ~= 30deg
+        if center_range and min(center_range) < 0.5:
+            twist.angular.z = 0.5  # turn if obstacle ahead
         else:
             twist.linear.x = 0.2  # move forward
         self.pub.publish(twist)
-        #self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
+
 def main(args=None):
     rclpy.init(args=args)
     node = LidarAvoidance()

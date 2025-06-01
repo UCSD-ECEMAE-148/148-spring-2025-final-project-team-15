@@ -1,0 +1,4 @@
+[console_scripts]
+twist_servo_LLM = actuators_pkg.twist_servo_LLM:main
+twist_vesc_LLM = actuators_pkg.twist_vesc_LLM:main
+

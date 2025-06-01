@@ -1,0 +1,52 @@
+[3.218s] Invoking command in '/home/projects/ros2_ws/src/actuators_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actuators_pkg build --build-base /home/projects/ros2_ws/src/build/actuators_pkg/build install --prefix /home/projects/ros2_ws/src/install/actuators_pkg --record /home/projects/ros2_ws/src/build/actuators_pkg/install.log --single-version-externally-managed
+[4.319s] running egg_info
+[4.321s] creating ../build/actuators_pkg/actuators_pkg.egg-info
+[4.322s] writing ../build/actuators_pkg/actuators_pkg.egg-info/PKG-INFO
+[4.323s] writing dependency_links to ../build/actuators_pkg/actuators_pkg.egg-info/dependency_links.txt
+[4.323s] writing entry points to ../build/actuators_pkg/actuators_pkg.egg-info/entry_points.txt
+[4.324s] writing requirements to ../build/actuators_pkg/actuators_pkg.egg-info/requires.txt
+[4.324s] writing top-level names to ../build/actuators_pkg/actuators_pkg.egg-info/top_level.txt
+[4.330s] writing manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'
+[4.483s] reading manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'
+[4.486s] writing manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'
+[4.488s] running build
+[4.488s] running build_py
+[4.489s] creating /home/projects/ros2_ws/src/build/actuators_pkg/build
+[4.489s] creating /home/projects/ros2_ws/src/build/actuators_pkg/build/lib
+[4.489s] creating /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg
+[4.490s] copying actuators_pkg/__init__.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg
+[4.490s] copying actuators_pkg/twist_vesc_LLM.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg
+[4.490s] copying actuators_pkg/twist_servo_LLM.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg
+[4.492s] creating /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/vesc_info_submodule
+[4.492s] copying actuators_pkg/vesc_info_submodule/vesc_clientside.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/vesc_info_submodule
+[4.493s] copying actuators_pkg/vesc_info_submodule/__init__.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/vesc_info_submodule
+[4.494s] running install
+[4.498s] running install_lib
+[4.502s] creating /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg
+[4.502s] copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/__init__.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg
+[4.503s] copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/twist_vesc_LLM.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg
+[4.503s] creating /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule
+[4.503s] copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/vesc_info_submodule/vesc_clientside.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule
+[4.504s] copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/vesc_info_submodule/__init__.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule
+[4.504s] copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/twist_servo_LLM.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg
+[4.507s] byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__init__.py to __init__.cpython-38.pyc
+[4.512s] byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_vesc_LLM.py to twist_vesc_LLM.cpython-38.pyc
+[4.513s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (twist_vesc_LLM.py, line 68)
+[4.513s] byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule/vesc_clientside.py to vesc_clientside.cpython-38.pyc
+[4.515s] byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule/__init__.py to __init__.cpython-38.pyc
+[4.516s] byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_servo_LLM.py to twist_servo_LLM.cpython-38.pyc
+[4.516s] running install_data
+[4.519s] creating /home/projects/ros2_ws/src/install/actuators_pkg/share/ament_index
+[4.519s] creating /home/projects/ros2_ws/src/install/actuators_pkg/share/ament_index/resource_index
+[4.520s] creating /home/projects/ros2_ws/src/install/actuators_pkg/share/ament_index/resource_index/packages
+[4.520s] copying resource/actuators_pkg -> /home/projects/ros2_ws/src/install/actuators_pkg/share/ament_index/resource_index/packages
+[4.521s] copying package.xml -> /home/projects/ros2_ws/src/install/actuators_pkg/share/actuators_pkg
+[4.521s] creating /home/projects/ros2_ws/src/install/actuators_pkg/share/actuators_pkg/launch
+[4.521s] creating /home/projects/ros2_ws/src/install/actuators_pkg/share/actuators_pkg/config
+[4.522s] running install_egg_info
+[4.528s] Copying ../build/actuators_pkg/actuators_pkg.egg-info to /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg-0.0.0-py3.8.egg-info
+[4.531s] running install_scripts
+[4.602s] Installing twist_servo_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg
+[4.603s] Installing twist_vesc_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg
+[4.604s] writing list of installed files to '/home/projects/ros2_ws/src/build/actuators_pkg/install.log'
+[4.702s] Invoked command in '/home/projects/ros2_ws/src/actuators_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actuators_pkg build --build-base /home/projects/ros2_ws/src/build/actuators_pkg/build install --prefix /home/projects/ros2_ws/src/install/actuators_pkg --record /home/projects/ros2_ws/src/build/actuators_pkg/install.log --single-version-externally-managed

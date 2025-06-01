@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001017] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.001326] (-) JobUnselected: {'identifier': 'llm_control_pkg'}
+[0.001979] (-) JobUnselected: {'identifier': 'ucsd_robocar_actuator2_pkg'}
+[0.002552] (-) JobUnselected: {'identifier': 'ucsd_robocar_basics2_pkg'}
+[0.004005] (-) JobUnselected: {'identifier': 'ucsd_robocar_control2_pkg'}
+[0.004188] (-) JobUnselected: {'identifier': 'ucsd_robocar_lane_detection2_pkg'}
+[0.004337] (-) JobUnselected: {'identifier': 'ucsd_robocar_nav2_pkg'}
+[0.004434] (-) JobUnselected: {'identifier': 'ucsd_robocar_path2_pkg'}
+[0.004549] (-) JobUnselected: {'identifier': 'ucsd_robocar_sensor2_pkg'}
+[0.006585] (actuators_pkg) JobQueued: {'identifier': 'actuators_pkg', 'dependencies': OrderedDict()}
+[0.007317] (actuators_pkg) JobStarted: {'identifier': 'actuators_pkg'}
+[0.099132] (-) TimerEvent: {}
+[0.199907] (-) TimerEvent: {}
+[0.300580] (-) TimerEvent: {}
+[0.401162] (-) TimerEvent: {}
+[0.501760] (-) TimerEvent: {}
+[0.602348] (-) TimerEvent: {}
+[0.702914] (-) TimerEvent: {}
+[0.803494] (-) TimerEvent: {}
+[0.904171] (-) TimerEvent: {}
+[1.004748] (-) TimerEvent: {}
+[1.105336] (-) TimerEvent: {}
+[1.205961] (-) TimerEvent: {}
+[1.306690] (-) TimerEvent: {}
+[1.407471] (-) TimerEvent: {}
+[1.508090] (-) TimerEvent: {}
+[1.608684] (-) TimerEvent: {}
+[1.709339] (-) TimerEvent: {}
+[1.809925] (-) TimerEvent: {}
+[1.910507] (-) TimerEvent: {}
+[2.011084] (-) TimerEvent: {}
+[2.111635] (-) TimerEvent: {}
+[2.212268] (-) TimerEvent: {}
+[2.312863] (-) TimerEvent: {}
+[2.413471] (-) TimerEvent: {}
+[2.514063] (-) TimerEvent: {}
+[2.614651] (-) TimerEvent: {}
+[2.715229] (-) TimerEvent: {}
+[2.815876] (-) TimerEvent: {}
+[2.916459] (-) TimerEvent: {}
+[3.017082] (-) TimerEvent: {}
+[3.117750] (-) TimerEvent: {}
+[3.218427] (-) TimerEvent: {}
+[3.241433] (actuators_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/actuators_pkg', 'build', '--build-base', '/home/projects/ros2_ws/src/build/actuators_pkg/build', 'install', '--prefix', '/home/projects/ros2_ws/src/install/actuators_pkg', '--record', '/home/projects/ros2_ws/src/build/actuators_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/ros2_ws/src/actuators_pkg', 'env': {'HOSTNAME': 'team15', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/projects/sensor2_ws/src/vesc/install/vesc_driver/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws/src/actuators_pkg/actuators_pkg', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/src/actuators_pkg/actuators_pkg/install:/home/projects/rosboard_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install:/home/projects/sensor2_ws/src/vesc/install:/home/projects/ros2_ws/install:/home/projects/sensor2_ws/src/imu/artemis_openlog/install:/home/projects/sensor2_ws/src/cameras/oakd/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/ros2_ws/install/llm_control_pkg:/home/projects/ros2_ws/install/lidar_avoidance:/home/projects/ros2_ws/install/actuators_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/src/build/actuators_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/llm_control_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/lidar_avoidance/lib/python3.8/site-packages:/home/projects/ros2_ws/install/actuators_pkg/lib/python3.8/site-packages:/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/joy_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux'}, 'shell': False}
+[3.318636] (-) TimerEvent: {}
+[3.419411] (-) TimerEvent: {}
+[3.520101] (-) TimerEvent: {}
+[3.620683] (-) TimerEvent: {}
+[3.721272] (-) TimerEvent: {}
+[3.821855] (-) TimerEvent: {}
+[3.922433] (-) TimerEvent: {}
+[4.023005] (-) TimerEvent: {}
+[4.123574] (-) TimerEvent: {}
+[4.224244] (-) TimerEvent: {}
+[4.324824] (-) TimerEvent: {}
+[4.342693] (actuators_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.345451] (actuators_pkg) StdoutLine: {'line': b'writing ../build/actuators_pkg/actuators_pkg.egg-info/PKG-INFO\n'}
+[4.347377] (actuators_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/actuators_pkg/actuators_pkg.egg-info/dependency_links.txt\n'}
+[4.348028] (actuators_pkg) StdoutLine: {'line': b'writing entry points to ../build/actuators_pkg/actuators_pkg.egg-info/entry_points.txt\n'}
+[4.348535] (actuators_pkg) StdoutLine: {'line': b'writing requirements to ../build/actuators_pkg/actuators_pkg.egg-info/requires.txt\n'}
+[4.348976] (actuators_pkg) StdoutLine: {'line': b'writing top-level names to ../build/actuators_pkg/actuators_pkg.egg-info/top_level.txt\n'}
+[4.424961] (-) TimerEvent: {}
+[4.507319] (actuators_pkg) StdoutLine: {'line': b"reading manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'\n"}
+[4.511083] (actuators_pkg) StdoutLine: {'line': b"writing manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'\n"}
+[4.512618] (actuators_pkg) StdoutLine: {'line': b'running build\n'}
+[4.513030] (actuators_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.513542] (actuators_pkg) StdoutLine: {'line': b'copying actuators_pkg/twist_vesc_LLM.py -> /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg\n'}
+[4.515690] (actuators_pkg) StdoutLine: {'line': b'running install\n'}
+[4.519452] (actuators_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.523389] (actuators_pkg) StdoutLine: {'line': b'copying /home/projects/ros2_ws/src/build/actuators_pkg/build/lib/actuators_pkg/twist_vesc_LLM.py -> /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg\n'}
+[4.525055] (-) TimerEvent: {}
+[4.527222] (actuators_pkg) StdoutLine: {'line': b'byte-compiling /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_vesc_LLM.py to twist_vesc_LLM.cpython-38.pyc\n'}
+[4.532527] (actuators_pkg) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (twist_vesc_LLM.py, line 69)\n'}
+[4.533162] (actuators_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.535499] (actuators_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.542166] (actuators_pkg) StdoutLine: {'line': b"removing '/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.543366] (actuators_pkg) StdoutLine: {'line': b'Copying ../build/actuators_pkg/actuators_pkg.egg-info to /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg-0.0.0-py3.8.egg-info\n'}
+[4.546878] (actuators_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.617273] (actuators_pkg) StdoutLine: {'line': b'Installing twist_servo_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg\n'}
+[4.618985] (actuators_pkg) StdoutLine: {'line': b'Installing twist_vesc_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg\n'}
+[4.620693] (actuators_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/projects/ros2_ws/src/build/actuators_pkg/install.log'\n"}
+[4.625227] (-) TimerEvent: {}
+[4.718119] (actuators_pkg) CommandEnded: {'returncode': 0}
+[4.725504] (-) TimerEvent: {}
+[4.815153] (actuators_pkg) JobEnded: {'identifier': 'actuators_pkg', 'rc': 0}
+[4.818054] (-) EventReactorShutdown: {}

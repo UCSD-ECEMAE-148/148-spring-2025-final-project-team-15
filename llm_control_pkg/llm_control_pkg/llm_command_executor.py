@@ -36,15 +36,18 @@ class LLMexecutor(Node):
     def listener_callback(self,msg):
         self.get_logger().info(f'Executing: {msg.data}')
         command = msg.data.lower().strip()
-
+        direction, speed, duration, angle = command.split(',')
+        self.get_logger().info(f'direction:{direction}, speed:{speed}, duration:{duration}, angle:{angle}')
         twist = Twist()
 
-        if command=="forward":
-            twist.linear.x = self.max_throttle
-            twist.angular.z = 0.0
+        twist.linear.x = float(direction)*float(speed)
+        self.get_logger().info(f'Linear updated to: {twist.linear.x}')
+        twist.angular.z = float(angle)
+        start = time.time()
+        while time.time() - start < int(duration):
             self.twist_publisher.publish(twist)
-            time.sleep(2)
-            self.stop_motion()
+            time.sleep(0.1)
+        self.stop_motion()
 
     def stop_motion(self):
         stop_twist = Twist()

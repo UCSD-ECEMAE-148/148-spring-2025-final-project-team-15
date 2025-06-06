@@ -1,0 +1,5 @@
+[console_scripts]
+curve_localizer_node = ucsd_robocar_path2_pkg.curve_localizer_node:main
+path_provider_node = ucsd_robocar_path2_pkg.path_provider_node:main
+tube_follower_node = ucsd_robocar_path2_pkg.tube_follower_node:main
+

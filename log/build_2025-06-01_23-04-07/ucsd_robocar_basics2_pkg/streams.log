@@ -1,0 +1,24 @@
+[7.860s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_basics2_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_basics2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_basics2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_basics2_pkg/install.log --single-version-externally-managed
+[9.215s] running egg_info
+[9.218s] writing ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/PKG-INFO
+[9.219s] writing dependency_links to ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/dependency_links.txt
+[9.219s] writing entry points to ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/entry_points.txt
+[9.220s] writing requirements to ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/requires.txt
+[9.220s] writing top-level names to ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/top_level.txt
+[9.403s] reading manifest file '../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/SOURCES.txt'
+[9.408s] writing manifest file '../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info/SOURCES.txt'
+[9.409s] running build
+[9.409s] running build_py
+[9.411s] running install
+[9.415s] running install_lib
+[9.424s] running install_data
+[9.428s] running install_egg_info
+[9.436s] removing '/home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages/ucsd_robocar_basics2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[9.438s] Copying ../../build/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg.egg-info to /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages/ucsd_robocar_basics2_pkg-0.0.0-py3.8.egg-info
+[9.442s] running install_scripts
+[9.529s] Installing sub_camera_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/ucsd_robocar_basics2_pkg
+[9.531s] Installing sub_lidar_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/ucsd_robocar_basics2_pkg
+[9.531s] Installing subpub_camera_actuator_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/ucsd_robocar_basics2_pkg
+[9.532s] Installing subpub_lidar_actuator_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/ucsd_robocar_basics2_pkg
+[9.533s] writing list of installed files to '/home/projects/ros2_ws/src/build/ucsd_robocar_basics2_pkg/install.log'
+[9.649s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_basics2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_basics2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_basics2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_basics2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_basics2_pkg/install.log --single-version-externally-managed

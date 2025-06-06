@@ -1,0 +1,6 @@
+[console_scripts]
+sub_camera_node = ucsd_robocar_basics2_pkg.sub_camera_node:main
+sub_lidar_node = ucsd_robocar_basics2_pkg.sub_lidar_node:main
+subpub_camera_actuator_node = ucsd_robocar_basics2_pkg.subpub_camera_actuator_node:main
+subpub_lidar_actuator_node = ucsd_robocar_basics2_pkg.subpub_lidar_actuator_node:main
+

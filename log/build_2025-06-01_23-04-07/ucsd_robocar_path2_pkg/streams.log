@@ -1,0 +1,23 @@
+[4.987s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_path2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_path2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_path2_pkg/install.log --single-version-externally-managed
+[6.209s] running egg_info
+[6.212s] writing ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/PKG-INFO
+[6.213s] writing dependency_links to ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/dependency_links.txt
+[6.214s] writing entry points to ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/entry_points.txt
+[6.214s] writing requirements to ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/requires.txt
+[6.214s] writing top-level names to ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/top_level.txt
+[6.383s] reading manifest file '../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/SOURCES.txt'
+[6.388s] writing manifest file '../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info/SOURCES.txt'
+[6.389s] running build
+[6.390s] running build_py
+[6.392s] running install
+[6.396s] running install_lib
+[6.405s] running install_data
+[6.409s] running install_egg_info
+[6.417s] removing '/home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages/ucsd_robocar_path2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.418s] Copying ../../build/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg.egg-info to /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages/ucsd_robocar_path2_pkg-0.0.0-py3.8.egg-info
+[6.422s] running install_scripts
+[6.504s] Installing curve_localizer_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/ucsd_robocar_path2_pkg
+[6.504s] Installing path_provider_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/ucsd_robocar_path2_pkg
+[6.505s] Installing tube_follower_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/ucsd_robocar_path2_pkg
+[6.505s] writing list of installed files to '/home/projects/ros2_ws/src/build/ucsd_robocar_path2_pkg/install.log'
+[6.616s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_path2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_path2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_path2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_path2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_path2_pkg/install.log --single-version-externally-managed

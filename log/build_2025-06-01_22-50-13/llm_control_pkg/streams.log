@@ -1,0 +1,43 @@
+[7.257s] Invoking command in '/home/projects/ros2_ws/src/llm_control_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/llm_control_pkg build --build-base /home/projects/ros2_ws/src/build/llm_control_pkg/build install --prefix /home/projects/ros2_ws/src/install/llm_control_pkg --record /home/projects/ros2_ws/src/build/llm_control_pkg/install.log --single-version-externally-managed
+[8.513s] running egg_info
+[8.516s] creating ../build/llm_control_pkg/llm_control_pkg.egg-info
+[8.517s] writing ../build/llm_control_pkg/llm_control_pkg.egg-info/PKG-INFO
+[8.519s] writing dependency_links to ../build/llm_control_pkg/llm_control_pkg.egg-info/dependency_links.txt
+[8.519s] writing entry points to ../build/llm_control_pkg/llm_control_pkg.egg-info/entry_points.txt
+[8.521s] writing requirements to ../build/llm_control_pkg/llm_control_pkg.egg-info/requires.txt
+[8.522s] writing top-level names to ../build/llm_control_pkg/llm_control_pkg.egg-info/top_level.txt
+[8.530s] writing manifest file '../build/llm_control_pkg/llm_control_pkg.egg-info/SOURCES.txt'
+[8.701s] reading manifest file '../build/llm_control_pkg/llm_control_pkg.egg-info/SOURCES.txt'
+[8.706s] writing manifest file '../build/llm_control_pkg/llm_control_pkg.egg-info/SOURCES.txt'
+[8.708s] running build
+[8.711s] running build_py
+[8.711s] creating /home/projects/ros2_ws/src/build/llm_control_pkg/build
+[8.712s] creating /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib
+[8.713s] creating /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg
+[8.713s] copying llm_control_pkg/__init__.py -> /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg
+[8.714s] copying llm_control_pkg/tcp_listener.py -> /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg
+[8.716s] copying llm_control_pkg/llm_command_executor.py -> /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg
+[8.716s] running install
+[8.736s] running install_lib
+[8.739s] creating /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg
+[8.739s] copying /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg/__init__.py -> /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg
+[8.741s] copying /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg/tcp_listener.py -> /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg
+[8.742s] copying /home/projects/ros2_ws/src/build/llm_control_pkg/build/lib/llm_control_pkg/llm_command_executor.py -> /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg
+[8.742s] byte-compiling /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg/__init__.py to __init__.cpython-38.pyc
+[8.749s] byte-compiling /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg/tcp_listener.py to tcp_listener.cpython-38.pyc
+[8.749s] byte-compiling /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg/llm_command_executor.py to llm_command_executor.cpython-38.pyc
+[8.750s] running install_data
+[8.765s] creating /home/projects/ros2_ws/src/install/llm_control_pkg/share/ament_index
+[8.765s] creating /home/projects/ros2_ws/src/install/llm_control_pkg/share/ament_index/resource_index
+[8.766s] creating /home/projects/ros2_ws/src/install/llm_control_pkg/share/ament_index/resource_index/packages
+[8.767s] copying resource/llm_control_pkg -> /home/projects/ros2_ws/src/install/llm_control_pkg/share/ament_index/resource_index/packages
+[8.768s] copying package.xml -> /home/projects/ros2_ws/src/install/llm_control_pkg/share/llm_control_pkg
+[8.768s] creating /home/projects/ros2_ws/src/install/llm_control_pkg/share/llm_control_pkg/launch
+[8.769s] copying launch/car_launch.py -> /home/projects/ros2_ws/src/install/llm_control_pkg/share/llm_control_pkg/launch
+[8.771s] running install_egg_info
+[8.778s] Copying ../build/llm_control_pkg/llm_control_pkg.egg-info to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg-0.0.0-py3.8.egg-info
+[8.795s] running install_scripts
+[8.862s] Installing llm_command_executor script to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/llm_control_pkg
+[8.866s] Installing tcp_listener script to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/llm_control_pkg
+[8.869s] writing list of installed files to '/home/projects/ros2_ws/src/build/llm_control_pkg/install.log'
+[9.105s] Invoked command in '/home/projects/ros2_ws/src/llm_control_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/llm_control_pkg build --build-base /home/projects/ros2_ws/src/build/llm_control_pkg/build install --prefix /home/projects/ros2_ws/src/install/llm_control_pkg --record /home/projects/ros2_ws/src/build/llm_control_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[7.382s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_control2_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_control2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_control2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_control2_pkg/install.log --single-version-externally-managed
+[8.696s] running egg_info
+[8.699s] writing ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/PKG-INFO
+[8.700s] writing dependency_links to ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/dependency_links.txt
+[8.701s] writing entry points to ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/entry_points.txt
+[8.702s] writing requirements to ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/requires.txt
+[8.702s] writing top-level names to ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/top_level.txt
+[8.886s] reading manifest file '../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/SOURCES.txt'
+[8.894s] writing manifest file '../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/SOURCES.txt'
+[8.895s] running build
+[8.895s] running build_py
+[8.901s] running install
+[8.905s] running install_lib
+[8.918s] running install_data
+[8.925s] running install_egg_info
+[8.934s] removing '/home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[8.935s] Copying ../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg-0.0.0-py3.8.egg-info
+[8.940s] running install_scripts
+[9.033s] Installing lqg_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[9.034s] Installing lqg_w_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[9.034s] Installing lqr_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[9.035s] Installing mpc_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[9.036s] Installing pid_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[9.039s] writing list of installed files to '/home/projects/ros2_ws/src/build/ucsd_robocar_control2_pkg/install.log'
+[9.298s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_control2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_control2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_control2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_control2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_control2_pkg/install.log --single-version-externally-managed

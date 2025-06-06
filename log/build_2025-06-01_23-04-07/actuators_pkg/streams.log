@@ -1,0 +1,22 @@
+[7.805s] Invoking command in '/home/projects/ros2_ws/src/actuators_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actuators_pkg build --build-base /home/projects/ros2_ws/src/build/actuators_pkg/build install --prefix /home/projects/ros2_ws/src/install/actuators_pkg --record /home/projects/ros2_ws/src/build/actuators_pkg/install.log --single-version-externally-managed
+[9.187s] running egg_info
+[9.191s] writing ../build/actuators_pkg/actuators_pkg.egg-info/PKG-INFO
+[9.193s] writing dependency_links to ../build/actuators_pkg/actuators_pkg.egg-info/dependency_links.txt
+[9.195s] writing entry points to ../build/actuators_pkg/actuators_pkg.egg-info/entry_points.txt
+[9.196s] writing requirements to ../build/actuators_pkg/actuators_pkg.egg-info/requires.txt
+[9.198s] writing top-level names to ../build/actuators_pkg/actuators_pkg.egg-info/top_level.txt
+[9.398s] reading manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'
+[9.403s] writing manifest file '../build/actuators_pkg/actuators_pkg.egg-info/SOURCES.txt'
+[9.404s] running build
+[9.405s] running build_py
+[9.409s] running install
+[9.415s] running install_lib
+[9.425s] running install_data
+[9.429s] running install_egg_info
+[9.438s] removing '/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[9.440s] Copying ../build/actuators_pkg/actuators_pkg.egg-info to /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg-0.0.0-py3.8.egg-info
+[9.446s] running install_scripts
+[9.553s] Installing twist_servo_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg
+[9.554s] Installing twist_vesc_LLM script to /home/projects/ros2_ws/src/install/actuators_pkg/lib/actuators_pkg
+[9.557s] writing list of installed files to '/home/projects/ros2_ws/src/build/actuators_pkg/install.log'
+[9.787s] Invoked command in '/home/projects/ros2_ws/src/actuators_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actuators_pkg build --build-base /home/projects/ros2_ws/src/build/actuators_pkg/build install --prefix /home/projects/ros2_ws/src/install/actuators_pkg --record /home/projects/ros2_ws/src/build/actuators_pkg/install.log --single-version-externally-managed

@@ -1,8 +1,10 @@
+/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_vesc_LLM_copy.py
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__init__.py
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_vesc_LLM.py
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/twist_servo_LLM.py
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule/vesc_clientside.py
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/vesc_info_submodule/__init__.py
+/home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__pycache__/twist_vesc_LLM_copy.cpython-38.pyc
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__pycache__/__init__.cpython-38.pyc
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__pycache__/twist_vesc_LLM.cpython-38.pyc
 /home/projects/ros2_ws/src/install/actuators_pkg/lib/python3.8/site-packages/actuators_pkg/__pycache__/twist_servo_LLM.cpython-38.pyc

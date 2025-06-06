@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		'avoid_node = lidar_avoidance.lidar_avoidance_node:main'
+		'avoid_node = lidar_avoidance.lidar_avoidance_node:main',
+        'decision_node = lidar_avoidance.smart_avoidance:main'
         ],
     },
 )

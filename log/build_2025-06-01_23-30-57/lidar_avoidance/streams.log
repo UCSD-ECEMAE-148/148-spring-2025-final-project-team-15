@@ -1,0 +1,24 @@
+[7.406s] Invoking command in '/home/projects/ros2_ws/src/lidar_avoidance': PYTHONPATH=/home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lidar_avoidance build --build-base /home/projects/ros2_ws/src/build/lidar_avoidance/build install --prefix /home/projects/ros2_ws/src/install/lidar_avoidance --record /home/projects/ros2_ws/src/build/lidar_avoidance/install.log --single-version-externally-managed
+[8.776s] running egg_info
+[8.779s] writing ../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO
+[8.780s] writing dependency_links to ../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt
+[8.781s] writing entry points to ../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt
+[8.782s] writing requirements to ../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt
+[8.782s] writing top-level names to ../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt
+[8.964s] reading manifest file '../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+[8.969s] writing manifest file '../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+[8.969s] running build
+[8.970s] running build_py
+[8.970s] copying lidar_avoidance/lidar_avoidance_node.py -> /home/projects/ros2_ws/src/build/lidar_avoidance/build/lib/lidar_avoidance
+[8.971s] running install
+[8.975s] running install_lib
+[8.980s] copying /home/projects/ros2_ws/src/build/lidar_avoidance/build/lib/lidar_avoidance/lidar_avoidance_node.py -> /home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance
+[8.983s] byte-compiling /home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance/lidar_avoidance_node.py to lidar_avoidance_node.cpython-38.pyc
+[8.990s] running install_data
+[8.992s] running install_egg_info
+[9.000s] removing '/home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[9.002s] Copying ../build/lidar_avoidance/lidar_avoidance.egg-info to /home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info
+[9.006s] running install_scripts
+[9.093s] Installing avoid_node script to /home/projects/ros2_ws/src/install/lidar_avoidance/lib/lidar_avoidance
+[9.094s] writing list of installed files to '/home/projects/ros2_ws/src/build/lidar_avoidance/install.log'
+[9.329s] Invoked command in '/home/projects/ros2_ws/src/lidar_avoidance' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/lidar_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lidar_avoidance build --build-base /home/projects/ros2_ws/src/build/lidar_avoidance/build install --prefix /home/projects/ros2_ws/src/install/lidar_avoidance --record /home/projects/ros2_ws/src/build/lidar_avoidance/install.log --single-version-externally-managed

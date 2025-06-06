@@ -1,0 +1,22 @@
+[7.339s] Invoking command in '/home/projects/ros2_ws/src/llm_control_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/llm_control_pkg build --build-base /home/projects/ros2_ws/src/build/llm_control_pkg/build install --prefix /home/projects/ros2_ws/src/install/llm_control_pkg --record /home/projects/ros2_ws/src/build/llm_control_pkg/install.log --single-version-externally-managed
+[8.656s] running egg_info
+[8.659s] writing ../build/llm_control_pkg/llm_control_pkg.egg-info/PKG-INFO
+[8.661s] writing dependency_links to ../build/llm_control_pkg/llm_control_pkg.egg-info/dependency_links.txt
+[8.663s] writing entry points to ../build/llm_control_pkg/llm_control_pkg.egg-info/entry_points.txt
+[8.664s] writing requirements to ../build/llm_control_pkg/llm_control_pkg.egg-info/requires.txt
+[8.666s] writing top-level names to ../build/llm_control_pkg/llm_control_pkg.egg-info/top_level.txt
+[8.851s] reading manifest file '../build/llm_control_pkg/llm_control_pkg.egg-info/SOURCES.txt'
+[8.857s] writing manifest file '../build/llm_control_pkg/llm_control_pkg.egg-info/SOURCES.txt'
+[8.858s] running build
+[8.858s] running build_py
+[8.860s] running install
+[8.865s] running install_lib
+[8.873s] running install_data
+[8.879s] running install_egg_info
+[8.888s] removing '/home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[8.890s] Copying ../build/llm_control_pkg/llm_control_pkg.egg-info to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages/llm_control_pkg-0.0.0-py3.8.egg-info
+[8.895s] running install_scripts
+[8.992s] Installing llm_command_executor script to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/llm_control_pkg
+[8.995s] Installing tcp_listener script to /home/projects/ros2_ws/src/install/llm_control_pkg/lib/llm_control_pkg
+[8.996s] writing list of installed files to '/home/projects/ros2_ws/src/build/llm_control_pkg/install.log'
+[9.214s] Invoked command in '/home/projects/ros2_ws/src/llm_control_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/llm_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/llm_control_pkg build --build-base /home/projects/ros2_ws/src/build/llm_control_pkg/build install --prefix /home/projects/ros2_ws/src/install/llm_control_pkg --record /home/projects/ros2_ws/src/build/llm_control_pkg/install.log --single-version-externally-managed

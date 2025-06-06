@@ -1,0 +1,4 @@
+[console_scripts]
+llm_command_executor = llm_control_pkg.llm_command_executor:main
+tcp_listener = llm_control_pkg.tcp_listener:main
+

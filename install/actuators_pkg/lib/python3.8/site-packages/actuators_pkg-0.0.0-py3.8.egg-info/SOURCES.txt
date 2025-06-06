@@ -11,6 +11,7 @@ setup.py
 actuators_pkg/__init__.py
 actuators_pkg/twist_servo_LLM.py
 actuators_pkg/twist_vesc_LLM.py
+actuators_pkg/twist_vesc_LLM_copy.py
 actuators_pkg/vesc_info_submodule/__init__.py
 actuators_pkg/vesc_info_submodule/vesc_clientside.py
 resource/actuators_pkg

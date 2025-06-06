@@ -3,6 +3,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from actuators_pkg.vesc_info_submodule.vesc_clientside import VESC_
 import time
+from std_msgs.msg import String
 
 class VescTwist(Node):
     def __init__(self):
@@ -10,10 +11,11 @@ class VescTwist(Node):
             self.vesc = VESC_()
             self.rpm_subscriber = self.create_subscription(Twist, '/cmd_vel', self.callback, 10)
             
+            self.lidar_subscriber = self.create_subscription(String, '/lidar_status', self.lidar_callback, 10)
             self.last_msg_time = time.time()
             self.timeout_seconds = 2
             self.timeout_timer = self.create_timer(0.1, self.check_timeout)
-            
+            self.obstacle_detected = False
 #       Default actuator values
             self.default_rpm_value = int(20000)
             self.default_steering_polarity = int(1) # if polarity is flipped, switch from 1 --> -1
@@ -75,6 +77,9 @@ class VescTwist(Node):
         # angular.z = -1.0  → max left
         # angular.z =  0.0  → straight
         # angular.z = +1.0  → max right
+        if self.obstacle_detected:
+            self.get_logger().info("Ignoring cmd_vel value")
+            return
         if clamped_z >= 0:
             steering_angle = (
                 self.straight_steering +
@@ -94,7 +99,18 @@ class VescTwist(Node):
         self.vesc.send_rpm(rpm)
         self.vesc.send_servo_angle(float(self.steering_polarity * steering_angle))
         self.last_msg_time = time.time()
-
+    
+    def lidar_callback(self, msg:String):
+        if "obstacle detected" == msg.data.lower():
+            if not self.obstacle_detected:
+                self.get_logger().info("Lidar detected obstacle!")
+            self.obstacle_detected = True
+            self.vesc.send_rpm(0)
+            self.vesc.send_servo_angle(float(self.steering_polarity * self.straight_steering))
+            self.last_msg_time = time.time()
+        else:
+            self.obstacle_detected = False
+ 
     def check_timeout(self):
         if time.time() - self.last_msg_time > self.timeout_seconds:
             # No cmd_vel received recently — send stop + straight steering

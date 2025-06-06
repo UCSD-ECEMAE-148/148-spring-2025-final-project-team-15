@@ -1,0 +1,2 @@
+ucsd_robocar_path2_pkg
+ucsd_robocar_path2_pkg/path_submodule

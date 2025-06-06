@@ -1,0 +1,50 @@
+[7.316s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed
+[8.624s] running egg_info
+[8.627s] creating ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info
+[8.628s] writing ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/PKG-INFO
+[8.629s] writing dependency_links to ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/dependency_links.txt
+[8.629s] writing entry points to ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/entry_points.txt
+[8.630s] writing requirements to ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/requires.txt
+[8.630s] writing top-level names to ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/top_level.txt
+[8.637s] writing manifest file '../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'
+[8.808s] reading manifest file '../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'
+[8.813s] writing manifest file '../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info/SOURCES.txt'
+[8.814s] running build
+[8.814s] running build_py
+[8.815s] creating /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build
+[8.815s] creating /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib
+[8.816s] creating /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg
+[8.816s] copying ucsd_robocar_lane_detection2_pkg/__init__.py -> /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg
+[8.817s] copying ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py -> /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg
+[8.818s] copying ucsd_robocar_lane_detection2_pkg/calibration_node.py -> /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg
+[8.821s] copying ucsd_robocar_lane_detection2_pkg/lane_detection_node.py -> /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg
+[8.823s] running install
+[8.828s] running install_lib
+[8.832s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg
+[8.833s] copying /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg/__init__.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg
+[8.834s] copying /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg
+[8.835s] copying /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg/calibration_node.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg
+[8.835s] copying /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build/lib/ucsd_robocar_lane_detection2_pkg/lane_detection_node.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg
+[8.839s] byte-compiling /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg/__init__.py to __init__.cpython-38.pyc
+[8.844s] byte-compiling /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py to lane_guidance_node.cpython-38.pyc
+[8.848s] byte-compiling /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg/calibration_node.py to calibration_node.cpython-38.pyc
+[8.870s] byte-compiling /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg/lane_detection_node.py to lane_detection_node.cpython-38.pyc
+[8.883s] running install_data
+[8.885s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ament_index
+[8.885s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ament_index/resource_index
+[8.886s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ament_index/resource_index/packages
+[8.886s] copying resource/ucsd_robocar_lane_detection2_pkg -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ament_index/resource_index/packages
+[8.887s] copying package.xml -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg
+[8.888s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/launch
+[8.888s] copying launch/camera_nav_calibration.launch.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/launch
+[8.896s] copying launch/camera_nav.launch.py -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/launch
+[8.898s] creating /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/config
+[8.899s] copying config/ros_racer_calibration.yaml -> /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/share/ucsd_robocar_lane_detection2_pkg/config
+[8.901s] running install_egg_info
+[8.918s] Copying ../../build/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg.egg-info to /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages/ucsd_robocar_lane_detection2_pkg-0.0.0-py3.8.egg-info
+[8.919s] running install_scripts
+[9.001s] Installing calibration_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[9.002s] Installing lane_detection_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[9.003s] Installing lane_guidance_node script to /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/ucsd_robocar_lane_detection2_pkg
+[9.004s] writing list of installed files to '/home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/install.log'
+[9.362s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ucsd_robocar_lane_detection2_pkg build --build-base /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/build install --prefix /home/projects/ros2_ws/src/install/ucsd_robocar_lane_detection2_pkg --record /home/projects/ros2_ws/src/build/ucsd_robocar_lane_detection2_pkg/install.log --single-version-externally-managed

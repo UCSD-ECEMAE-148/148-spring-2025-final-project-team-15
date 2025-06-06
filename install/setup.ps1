@@ -29,7 +29,6 @@ _colcon_prefix_chain_powershell_source_script "/home/projects/ros2_ws/install\lo
 _colcon_prefix_chain_powershell_source_script "/home/projects/sensor2_ws/src/vesc/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/projects/sensor2_ws/src/lidars/ld06/ros2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/projects/rosboard_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/projects/ros2_ws/src/actuators_pkg/actuators_pkg/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

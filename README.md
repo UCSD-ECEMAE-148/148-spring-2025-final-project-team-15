@@ -29,6 +29,11 @@ The goal of our project is to build a voice-controlled robot, inspired by real-w
 - **Reaction Upon Obstacle Identification:** On top of the lidar detecting obstacles, we are able to successfully react to them. The car is able to steer clear of obstacles at low speeds.
 - **Costmap Implementation in Obstacle Identification/Reaction:** We took our obstacle avoidance to the next level by implementing a costmap. The lidar is sectioned off into multiple sectors and calculates the 'risk' factor of driving into a specific sector. It ultimately tells the VESC to go in the direction where the 'risk' is minimized. This feature only kicks in when obstacles are detected.
 
+### Nice to Haves/Bonus Features
+- **Voice commands for more complex behaviors:** We initially planned to use OpenCV to tell the car commands like 'go around the blue obstacle,' but we weren't able to get to this level of processing.
+- **Simplify speech patterns:** The LLM can only generate missing parameters from voice inputs to a certain extent. We were hoping to make this better but didn't get the chance to.
+- **Smoother VESC operations:** The VESC is currently not super smooth, which goes against our ethos as a 'voice-controlled wheelchair.' We wanted to add more accleration/deceleration features so that the car speeds up and slows down smoother.
+
 ---
 
 ## Features of the Car

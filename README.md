@@ -76,6 +76,17 @@ In addition to these nodes, we simultaneously run additional nodes to help with 
 To make this project better, we can implement the Command Manager node to control how and when commands to the VESC are published. This would allow us to run different commands simultaneously since they are run in series right now.
 
 ---
+## To Run Our Project
+
+We have launch files implemented that launch the correct nodes to run our project.
+After sourcing ROS2 using `source_ros2`, this command can be run to launch all the ROS nodes:
+
+`ros2 launch llm_control_pkg car_launch_lidar.py`
+
+The LLM files included in the src/ directory of the GitHub repo also need to be run to publish commands to the TCP server, enabling the car to move.
+The correct GEMINI API key needs to be configured, and the API_test file can be used to verify if the key is properly detected in the environment variables.
+
+---
 
 ## Final Project Presentation
 [Link to the slide](https://docs.google.com/presentation/d/16F6ugTsulLBXcFYbssiPY11haiGuQK-PavjkXhjKuz0/edit?usp=sharing)

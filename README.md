@@ -24,8 +24,7 @@ The goal of our project is to build a voice-controlled robot, inspired by real-w
 
 ---
 
-## What We Promised
-### Promised Features
+## Features of the Car
 - Car/VESC acts upon prompt input, control speed, duration, angle
 - LLM voice recognition - prompt to parse into params
 - Lidar Integration to identify obstacle 
@@ -40,6 +39,12 @@ Embed or link demo videos here:
 - [Demo Video 1: Controlling the robot with voice command](https://youtube.com/shorts/sKy2-RqtOS4?feature=share)
 - [Demo Video 2: Robot avoiding the wall on the left while not running into pedestrian on the right](https://youtu.be/NgpsvB51Ezo)
 - [Demo Video 3: Robot going around an obstacle](https://youtu.be/sVomLy_VWWM)
+
+---
+
+## Node Architecture
+Below, we show the architecture and structure of the nodes used to implemenet the robot. 
+<img width="748" alt="Screenshot 2025-06-13 at 10 48 21 PM" src="https://github.com/user-attachments/assets/09c83e42-f5b6-4639-8134-80d30486547a" />
 
 ---
 

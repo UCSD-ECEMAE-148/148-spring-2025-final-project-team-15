@@ -37,9 +37,9 @@ The goal of our project is to build a voice-controlled robot, inspired by real-w
 ## Demonstrations
 Embed or link demo videos here:
 
-- [Demo Video 1: Controlling the robot with voice command](https://www.youtubeeducation.com/watch?v=sKy2-RqtOS4)
+- [Demo Video 1: Controlling the robot with voice command](https://youtube.com/shorts/sKy2-RqtOS4?feature=share)
 - [Demo Video 2: Robot avoiding the wall on the left while not running into pedestrian on the right](https://www.youtubeeducation.com/watch?v=NgpsvB51Ezo)
-- [Demo Video 3: Robot going around an obstacle](https://www.youtubeeducation.com/watch?v=sVomLy_VWWM)
+- [Demo Video 3: Robot going around an obstacle](https://youtu.be/sVomLy_VWWM)
 
 ---
 

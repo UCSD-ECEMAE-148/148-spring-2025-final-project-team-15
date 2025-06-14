@@ -5,7 +5,7 @@
 
 ---
 
-### 🛠️ Project Title:  **Voice Controlled Autonomous Bot**
+### 🛠️ Project : Voice Controlled Autonomous Bot
 
 ---
 
@@ -14,3 +14,34 @@
 - **Athena Wu** (ECE)  
 - **Sebastian Castaneda** (ECE)  
 - **Sujaan Mukherjee** (MAE)
+
+---
+
+## 📌 Project Overview / Proposal
+A brief summary of the project’s purpose, motivation, and high-level goals.  
+
+---
+
+## ✅ What We Promised
+### Promised Features
+- [ ] Feature 1  
+- [ ] Feature 2  
+- [ ] etc.
+
+### Nice-to-Have Features
+- [ ] Bonus Feature 1  
+- [ ] Bonus Feature 2
+
+---
+
+## Demonstrations
+Embed or link demo videos here:
+
+- [Demo Video 1](#)
+- [Demo Video 2](#)
+
+
+Example for embedding (if supported in Markdown viewer):
+
+```html
+<video src="demo1.mp4" controls width="600"></video>

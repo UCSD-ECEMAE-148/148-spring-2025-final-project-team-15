@@ -40,8 +40,7 @@ Embed or link demo videos here:
 - [Demo Video 1](#)
 - [Demo Video 2](#)
 
+---
 
-Example for embedding (if supported in Markdown viewer):
-
-```html
-<video src="demo1.mp4" controls width="600"></video>
+## Final Project Presentation
+[Link to the slide](https://docs.google.com/presentation/d/16F6ugTsulLBXcFYbssiPY11haiGuQK-PavjkXhjKuz0/edit?usp=sharing)

@@ -6,6 +6,8 @@
 ---
 
 ### 🛠️ Project : Voice Controlled Autonomous Bot
+<img style="width: 50%;" alt="Screenshot 2025-06-13 at 10 36 41 PM" src="https://github.com/user-attachments/assets/13300ca1-a6e6-4255-a381-541936cc506f" />
+
 
 ---
 

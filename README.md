@@ -73,6 +73,8 @@ In addition to these nodes, we simultaneously run additional nodes to help with 
 - **Lidar_Avoidance:** This node is responsible for processing input from the lidar data. It simply publishes stop messages when the car is close to running into something.
 - **Smart_Decision:** This node is responsible for the costmap implementation for our obstacle avoidance. It handles the logic for calculating the 'risk factor' in each lidar sector and then publishing messages to the VESC through the lidar_status topic telling the robot which way to go. Namely, these messages include forward, left and right directions.
 
+To make this project better, we can implement the Command Manager node to control how and when commands to the VESC are published. This would allow us to run different commands simultaneously since they are run in series right now.
+
 ---
 
 ## Final Project Presentation

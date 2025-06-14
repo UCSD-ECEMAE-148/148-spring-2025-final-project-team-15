@@ -12,15 +12,22 @@
 ---
 
 ### 👥 Team Members:
-- **Pranav Kambhampati** (ECE)  
-- **Athena Wu** (ECE)  
-- **Sebastian Castaneda** (ECE)  
-- **Sujaan Mukherjee** (MAE)
+- **Pranav Kambhampati** (ECE)  - Class of 2026
+- **Athena Wu** (ECE)  - Class of 2026
+- **Sebastian Castaneda** (ECE)  - Class of 2025
+- **Sujaan Mukherjee** (MAE)  -  Class of 2025
 
 ---
 
 ## Project Overview / Proposal
-The goal of our project is to build a voice-controlled robot, inspired by real-world applications of voice-controlled wheelchairs to asssit individuals with mobility impairments. Our robot recognizes and executes voice commands with LLM models and idetnfifies and avoid obstacles using lidars. The robot ecognizes and executes voice commands such as “forward”, “backward”, “stop.” The robot integrates speech recognition, sensor-based obstacle avoidance, and autonomous decision-making using ROS.
+The goal of our project is to build a voice-controlled robot, inspired by real-world applications of voice-controlled wheelchairs to assist individuals with mobility impairments. Our robot recognizes and executes voice commands with LLM models and identifies and avoids obstacles using lidars. The robot recognizes and executes voice commands such as “forward”, “backward”, “stop.” The robot integrates speech recognition, sensor-based obstacle avoidance, and autonomous decision-making using ROS.
+
+### Goals We Have Accomplished:
+- **Car/Vesc acts upon prompt input, control speed, duration and angle:** Successfully built a voice-controlled car that supports both lateral movements and turns. Decides rpm and motor spin time based on parameters recieved from the LLM.
+- **LLM Voice Recognition using prompt to parse params:** We are successfully able to use an LLM to parse voice commands rather than a simple speech to text package. There is additional flexibility for what the user can say since the LLM pieces input into the right parameters.
+- **Lidar Integration to Identify Obstacles:** We promised to have a car that wouldn't drive blidnly and would use the lidar to identify obstacles, which we accomplished. This lidar interfaces with the vesc node, providing it input on when and where to go.
+- **Reaction Upon Obstacle Identification:** On top of the lidar detecting obstacles, we are able to successfully react to them. The car is able to steer clear of obstacles at low speeds.
+- **Costmap Implementation in Obstacle Identification/Reaction:** We took our obstacle avoidance to the next level by implementing a costmap. The lidar is sectioned off into multiple sectors and calculates the 'risk' factor of driving into a specific sector. It ultimately tells the VESC to go in the direction where the 'risk' is minimized. This feature only kicks in when obstacles are detected.
 
 ---
 

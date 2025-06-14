@@ -99,7 +99,8 @@ class VescTwist(Node):
         self.vesc.send_rpm(rpm)
         self.vesc.send_servo_angle(float(self.steering_polarity * steering_angle))
         self.last_msg_time = time.time()
-    
+
+    # to control robot based on data recieved from LIDAR
     def lidar_callback(self, msg:String):
         if "obstacle detected" == msg.data.lower():
             if not self.obstacle_detected:

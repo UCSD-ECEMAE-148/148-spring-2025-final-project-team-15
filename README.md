@@ -15,7 +15,7 @@
 - **Pranav Kambhampati** (ECE)  - Class of 2026
 - **Athena Wu** (ECE)  - Class of 2026
 - **Sebastian Castaneda** (ECE)  - Class of 2025
-- **Sujaan Mukherjee** (MAE)  -  Class of 2025
+- **Sujaan Mukherjee** (MAE)  -  Class of 2026
 
 ---
 
